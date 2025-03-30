@@ -76,10 +76,14 @@ you may incrementally adopt new features where appropriate:
 There is no urgency to refactor existing, working bindings — adopt new
 features as the need arises or as part of ongoing maintenance efforts.
 
-TODO ADD WARNINGS:
-* std::enabled_shared_from_this private inheritance
-* holder caster traits specializations may be needed
-* enum caster traits specializations may be needed
+Potential stumbling blocks when migrating to v3.0
+-------------------------------------------------
+
+The following issues are very unlikely to arise, and easy to work around:
+
+* TODO holder caster traits specializations may be needed
+
+* TODO enum caster traits specializations may be needed
 
 .. _upgrade-guide-2.12:
 
